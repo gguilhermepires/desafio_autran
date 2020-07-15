@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Migrations\20200715001753_firstMigration.cs" />
+	  <Compile Remove="Migrations\20200715001753_firstMigration.Designer.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.App" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
+		<PackageReference Include="SolrNet.Core" Version="1.0.19" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Guilherme.Domain\Guilherme.Domain.csproj" />
+	</ItemGroup>
+</Project>

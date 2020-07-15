@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/fe4v5XBaKFfD8THboVrxWb/MwBRhVWni2E4a2z3sRxNXFLHHjNvFbS13G5lg3+m450aRJVFSk45RQjDw2i0LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guilherme\\Desktop\\github\\desafio_autran\\Guilherme.Domain.Core\\Guilherme.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilherme\\.nuget\\packages\\fluentvalidation\\9.0.0\\fluentvalidation.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Guilherme.Commons\Guilherme.Commons.csproj" />
+    <ProjectReference Include="..\Guilherme.Data\Guilherme.Data.csproj" />
+    <ProjectReference Include="..\Guilherme.Domain\Guilherme.Domain.csproj" />
+    <ProjectReference Include="..\Guilherme.Service.Contracts\Guilherme.Service.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
